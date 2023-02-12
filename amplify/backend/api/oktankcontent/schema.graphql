@@ -1,0 +1,15 @@
+type Content @model
+    @auth(rules: [
+        { allow: private}
+    ]) {
+    id: ID!
+    name: String
+    category: String
+    contentType: String
+    desc: String
+    likes: Int
+}
+
+type Query {
+  getRecommendations(userId: String, name: String): [Content] @function(name: "oktankcontentrecommendgraphql-${env}")
+}

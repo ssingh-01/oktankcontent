@@ -1,0 +1,34 @@
+{
+  "dev": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-oktankcontent-dev-185406-authRole",
+      "UnauthRoleArn": "arn:aws:iam::101390875088:role/amplify-oktankcontent-dev-185406-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::101390875088:role/amplify-oktankcontent-dev-185406-authRole",
+      "Region": "us-east-1",
+      "DeploymentBucketName": "amplify-oktankcontent-dev-185406-deployment",
+      "UnauthRoleName": "amplify-oktankcontent-dev-185406-unauthRole",
+      "StackName": "amplify-oktankcontent-dev-185406",
+      "StackId": "arn:aws:cloudformation:us-east-1:101390875088:stack/amplify-oktankcontent-dev-185406/cddf96a0-37a4-11ed-8e58-1259cc103caf",
+      "AmplifyAppId": "d1pweye47n022i"
+    },
+    "categories": {
+      "auth": {
+        "oktankcontent9dbeef0e": {}
+      },
+      "function": {
+        "oktankcontentrecommendgraphql": {
+          "region": "us-east-1",
+          "deploymentBucketName": "amplify-oktankcontent-dev-185406-deployment",
+          "s3Key": "amplify-builds/oktankcontentrecommendgraphql-6c74677364337a346c4d-build.zip",
+          "env": "dev"
+        }
+      },
+      "hosting": {
+        "amplifyhosting": {
+          "appId": "d1pweye47n022i",
+          "type": "manual"
+        }
+      }
+    }
+  }
+}

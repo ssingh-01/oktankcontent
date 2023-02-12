@@ -1,0 +1,12 @@
+{
+  "kinesisStreamName": "oktankcontentKinesis",
+  "kinesisStreamShardCount": 1,
+  "authRoleName": {
+    "Ref": "AuthRoleName"
+  },
+  "unauthRoleName": {
+    "Ref": "UnauthRoleName"
+  },
+  "authPolicyName": "kinesis_amplify_613738f5",
+  "unauthPolicyName": "kinesis_amplify_613738f5"
+}
